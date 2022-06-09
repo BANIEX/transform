@@ -1,0 +1,40 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background: yellowgreen;
+}
+.wrapper{
+    width: 100%;
+}
+.baniex{
+    margin: 150px auto;
+    width: 70%;
+    height: 50vh;
+    /* border: 2px solid red; */
+    /* font-stretch: 1px; */
+}
+.letter{
+    display: inline-block;
+    font-size: 200px;
+    font-weight: 900;
+    font-stretch: ultra-expanded;
+    transform: rotate(40deg);
+    /* border: 2px solid yellow; */
+}
+.change{
+    transform: rotate(0deg);
+    transform: scale(1.4);
+    color: rgb(228, 221, 230);
+
+}
+.letter_container{
+    text-align: center;
+    margin: 0px auto;
+    /* border: 2px solid salmon; */
+    width: fit-content;
+    letter-spacing: 30px;
+}
